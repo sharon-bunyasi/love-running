@@ -1,0 +1,18 @@
+/* asterick wildcard selector to overide default styles added by the browser */
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+/* header */
+header {
+    background-color: lightcoral;
+}
+/* main content */
+main{
+    background-color: lightblue;
+}
+/* footer*/
+footer{
+    background-color: yellow;
+}
