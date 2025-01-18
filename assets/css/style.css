@@ -72,15 +72,24 @@ nav{
     font-size: 2rem;
 }
 /* main content */
-main{
+main {
     background-color: lightblue;
     /*make main element take up any surplus soace to push the footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
 }
 /* footer*/
-footer{
-    background-color: yellow;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#social-networks i{
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 /*media query: tablet and larger (768px and up) */
 @media  screen and (min-width: 768px) {
